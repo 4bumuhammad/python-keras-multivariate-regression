@@ -22,7 +22,7 @@ Creating Directories and File Structures
 
 
 
-  ❯ mkdir -p data models utils
+  <!-- ❯ mkdir -p data models utils
 
   ❯ touch data/__init__.py data/data_loader.py
 
@@ -30,24 +30,19 @@ Creating Directories and File Structures
 
   ❯ touch utils/__init__.py utils/helper_functions.py
 
-  ❯ touch train.py predict.py
+  ❯ touch train.py predict.py -->
 
-  ❯ tree -L 2 -a -I 'README.md|.DS_Store|.git|.gitignore|venv|gambar-petunjuk' ./
+    ❯ tree -L 2 -a -I 'README.md|.DS_Store|.git|.gitignore|venv|gambar-petunjuk' ./
     ./
     ├── data
-    │   ├── __init__.py
-    │   └── data_loader.py
+    │   └── boston_housing.csv
     ├── models
-    │   ├── __init__.py
-    │   └── prediction_model.py
-    ├── predict.py
     ├── requirements.txt
-    ├── train.py
-    └── utils
-        ├── __init__.py
-        └── helper_functions.py
+    └── src
+        ├── predict.py
+        └── train.py
 
-    3 directories, 9 files
+    3 directories, 4 files
 </pre>
 
 &nbsp;
@@ -60,41 +55,35 @@ Creating Directories and File Structures
     astunparse                   1.6.3
     certifi                      2024.2.2
     charset-normalizer           3.3.2
-    cycler                       0.12.1
-    Cython                       3.0.10
     flatbuffers                  24.3.25
     gast                         0.5.4
     google-pasta                 0.2.0
-    grpcio                       1.63.0
+    grpcio                       1.64.0
     h5py                         3.11.0
     idna                         3.7
-    joblib                       1.1.0
+    joblib                       1.4.2
     keras                        3.3.3
-    kiwisolver                   1.4.5
     libclang                     18.1.1
     Markdown                     3.6
     markdown-it-py               3.0.0
     MarkupSafe                   2.1.5
-    matplotlib                   3.4.3
     mdurl                        0.1.2
     ml-dtypes                    0.3.2
     namex                        0.0.8
-    numpy                        1.22.4
+    numpy                        1.26.4
     opt-einsum                   3.3.0
     optree                       0.11.0
     packaging                    24.0
     pandas                       1.3.4
-    pillow                       10.3.0
     pip                          22.0.4
     protobuf                     4.25.3
     Pygments                     2.18.0
-    pyparsing                    3.1.2
     python-dateutil              2.9.0.post0
     pytz                         2024.1
-    requests                     2.31.0
+    requests                     2.32.1
     rich                         13.7.1
     scikit-learn                 1.4.2
-    scipy                        1.7.3
+    scipy                        1.13.0
     setuptools                   58.1.0
     six                          1.16.0
     tensorboard                  2.16.2
