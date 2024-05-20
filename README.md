@@ -8,41 +8,41 @@
 
 Creating Directories and File Structures
 <pre>
-  ❯ pwd
-      /Users/.../&lt;project-name&gt;
+    ❯ pwd
+        /Users/.../&lt;project-name&gt;
 
-  ❯ cd &lt;project-name&gt;
+    ❯ cd &lt;project-name&gt;
 
-  ❯ python -m venv venv
+    ❯ python -m venv venv
 
-  ❯ source ./venv/bin/activate
+    ❯ source ./venv/bin/activate
 
-  ❯ pip install --no-cache-dir -r requirements.txt
-
-
+    ❯ pip install --no-cache-dir -r requirements.txt
 
 
-  <!-- ❯ mkdir -p data models utils
 
-  ❯ touch data/__init__.py data/data_loader.py
 
-  ❯ touch models/__init__.py models/prediction_model.py
+    <!-- ❯ mkdir -p data models utils
 
-  ❯ touch utils/__init__.py utils/helper_functions.py
+    ❯ touch data/__init__.py data/data_loader.py
 
-  ❯ touch train.py predict.py -->
+    ❯ touch models/__init__.py models/prediction_model.py
+
+    ❯ touch utils/__init__.py utils/helper_functions.py
+
+    ❯ touch train.py predict.py -->
 
     ❯ tree -L 2 -a -I 'README.md|.DS_Store|.git|.gitignore|venv|gambar-petunjuk' ./
-    ./
-    ├── data
-    │   └── boston_housing.csv
-    ├── models
-    ├── requirements.txt
-    └── src
-        ├── predict.py
-        └── train.py
+        ./
+        ├── data
+        │   └── boston_housing.csv
+        ├── models
+        ├── requirements.txt
+        └── src
+            ├── predict.py
+            └── train.py
 
-    3 directories, 4 files
+        3 directories, 4 files
 </pre>
 
 &nbsp;
