@@ -646,6 +646,16 @@ After :
 
 &nbsp;
 
+## &#x1F6A9; Referensi python-keras-mnist-classifier
+Classification : 
+<div align="left">
+    <ul>
+        <li>
+            <h2><a href="https://github.com/4bumuhammad/python-keras-mnist-classifier">Link : Python Keras (hight-level neural networks API) with dataset MNIST</a></h2>
+        </li>
+    </ul>
+</div>
+
 &nbsp;
 
 &nbsp;
