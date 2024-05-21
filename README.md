@@ -8,46 +8,46 @@
 Proyek ini akan memprediksi harga rumah berdasarkan beberapa fitur seperti jumlah kamar tidur, luas tanah, dan lainnya. Kita akan menggunakan dataset Boston Housing yang umum digunakan untuk masalah regresi.<br />
 Berikut adalah penjelasan singkat tentang masing-masing kolom dalam dataset Boston Housing:<br />
 
--   CRIM: Per capita crime rate by town.
+-   CRIM: Per capita crime rate by town.<br />
     Tingkat kejahatan per kapita berdasarkan kota.
 
--   ZN: Proportion of residential land zoned for lots over 25,000 sq. ft.
+-   ZN: Proportion of residential land zoned for lots over 25,000 sq. ft.<br />
     Proporsi tanah perumahan yang dikategorikan untuk lot lebih dari 25.000 kaki persegi.
 
--   INDUS: Proportion of non-retail business acres per town.
+-   INDUS: Proportion of non-retail business acres per town.<br />
     Proporsi acre bisnis non-ritel per kota.
 
--   CHAS: Charles River dummy variable (1 if tract bounds river; 0 otherwise).
+-   CHAS: Charles River dummy variable (1 if tract bounds river; 0 otherwise).<br />
     Variabel dummy Charles River (1 jika area berbatasan dengan sungai; 0 jika tidak).
 
--   NOX: Nitric oxide concentration (parts per 10 million).
+-   NOX: Nitric oxide concentration (parts per 10 million).<br />
     Konsentrasi nitrogen oksida (bagian per 10 juta).
 
--   RM: Average number of rooms per dwelling.
+-   RM: Average number of rooms per dwelling.<br />
     Jumlah rata-rata kamar per tempat tinggal.
 
--   AGE: Proportion of owner-occupied units built prior to 1940.
+-   AGE: Proportion of owner-occupied units built prior to 1940.<br />
     Proporsi unit yang ditempati pemilik yang dibangun sebelum tahun 1940.
 
--   DIS: Weighted distances to five Boston employment centers.
+-   DIS: Weighted distances to five Boston employment centers.<br />
     Jarak berbobot ke lima pusat pekerjaan di Boston.
 
--   RAD: Index of accessibility to radial highways.
+-   RAD: Index of accessibility to radial highways.<br />
     Indeks aksesibilitas ke jalan raya radial.
 
--   TAX: Full-value property tax rate per $10,000.
+-   TAX: Full-value property tax rate per $10,000.<br />
     Tingkat pajak properti penuh per $10.000.
 
--   PTRATIO: Pupil-teacher ratio by town.
+-   PTRATIO: Pupil-teacher ratio by town.<br />
     Rasio murid-guru berdasarkan kota.
 
--   B: 1000(Bk - 0.63)^2 where Bk is the proportion of Black residents by town.
+-   B: 1000(Bk - 0.63)^2 where Bk is the proportion of Black residents by town.<br />
     1000(Bk - 0.63)^2 di mana Bk adalah proporsi penduduk kulit hitam berdasarkan kota.
 
--   LSTAT: Percentage of lower status of the population.
+-   LSTAT: Percentage of lower status of the population.<br />
     Persentase populasi dengan status sosial rendah.
 
--   MEDV: Median value of owner-occupied homes in $1000s.
+-   MEDV: Median value of owner-occupied homes in $1000s.<br />
     Nilai tengah rumah yang ditempati pemilik dalam ribuan dolar.
 
 &nbsp;
