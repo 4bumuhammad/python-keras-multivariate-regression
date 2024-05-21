@@ -654,6 +654,29 @@ Proyek di atas menggunakan pendekatan multivariate regression, bukan klasifikasi
 -   **Multivariate Regression:** Digunakan ketika target variabel adalah kontinu dan numerik. Misalnya, memprediksi harga rumah (seperti dalam dataset Boston Housing) berdasarkan beberapa fitur (seperti jumlah kamar, tingkat kejahatan, dll.).<br />
     Tujuan dari regresi adalah untuk memperkirakan nilai numerik dari target variabel.
 
+-   **Classification:** Digunakan ketika target variabel adalah kategori. Misalnya, mengklasifikasikan email sebagai spam atau tidak spam, atau mengklasifikasikan jenis bunga berdasarkan beberapa fitur.<br />
+    Tujuan dari klasifikasi adalah untuk mengklasifikasikan input ke dalam satu dari beberapa kategori yang telah ditentukan.
+
+&nbsp;
+
+**Analisis Dataset Boston Housing**
+
+-   Dataset Boston Housing: Memiliki target variabel MEDV (Median value of owner-occupied homes in $1000s) yang bersifat kontinu dan numerik.
+
+-   Fitur: Fitur seperti CRIM, ZN, INDUS, dll., adalah variabel prediktor yang digunakan untuk memperkirakan nilai target.
+
+&nbsp;
+
+**Pendekatan Multivariate Regression**
+
+Pada proyek yang dijelaskan:
+
+-   Input (X): Berbagai fitur seperti `CRIM`, `ZN`, `INDUS`, dll.
+-   Output (y): Nilai tengah rumah (`MEDV`), yang merupakan variabel kontinu.
+
+&nbsp;
+
+&nbsp;
 
 ## &#x1F6A9; Referensi python-keras-mnist-classifier
 <div align="left">
