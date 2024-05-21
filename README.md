@@ -276,7 +276,7 @@ List installed packages.
 
 ## Run - result
 
-- Train :
+- TRAIN :
 <pre>
 ❯ python3 src/train.py
 
@@ -688,7 +688,7 @@ Test loss: 34.654624938964844
 
 &nbsp;
 
-- Predict :
+- PREDICT :
 
 <pre>
     ❯ python3 src/predict.py
