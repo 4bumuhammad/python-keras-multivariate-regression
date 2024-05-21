@@ -755,8 +755,6 @@ Directories and Files Structure : After
 ## Conclusions regarding how the project differs from the classifier.
 Proyek di atas menggunakan pendekatan multivariate regression, bukan klasifikasi. Mari kita jelaskan mengapa.
 
-<i>The above project uses a multivariate regression approach, not classification. Let's explain why.</i>
-
 &nbsp;
 
 **Multivariate Regression vs. Classification**<br /><br />
