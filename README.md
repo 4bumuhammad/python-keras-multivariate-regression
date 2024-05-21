@@ -726,7 +726,7 @@ Test loss: 34.654624938964844
 
 &nbsp;
 
-After : 
+Directories and Files Structure : After
 <pre>
     ❯ tree -L 2 -a -I 'README.md|.DS_Store|.git|.gitignore|venv|gambar-petunjuk' ./
         ./
@@ -754,6 +754,8 @@ After :
 
 ## Conclusions regarding how the project differs from the classifier.
 Proyek di atas menggunakan pendekatan multivariate regression, bukan klasifikasi. Mari kita jelaskan mengapa.
+
+<i>The above project uses a multivariate regression approach, not classification. Let's explain why.</i>
 
 &nbsp;
 
