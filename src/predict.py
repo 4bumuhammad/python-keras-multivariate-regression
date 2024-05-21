@@ -2,9 +2,13 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from keras.models import Sequential
 from keras.layers import Dense
+import os
 
+# Define base directory
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Load dataset
-data = pd.read_csv('../data/boston_housing.csv')
+data_path = os.path.join(BASE_DIR, 'data', 'boston_housing.csv')
+data = pd.read_csv(data_path)
 
 # Split features and target variable
 X = data.drop('MEDV', axis=1)
@@ -21,7 +25,7 @@ model.add(Dense(64, activation='relu'))
 model.add(Dense(1))
 
 # Load the trained weights
-model.load_weights('../models/multivariate_regression_model.h5')
+model.load_weights(os.path.join(BASE_DIR, 'models', 'multivariate_regression_model.keras'))
 
 # Compile the model (necessary for prediction)
 model.compile(optimizer='adam', loss='mean_squared_error')
