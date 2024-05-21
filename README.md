@@ -647,7 +647,6 @@ After :
 &nbsp;
 
 ## &#x1F6A9; Referensi python-keras-mnist-classifier
-Classification : 
 <div align="left">
     <ul>
         <li>
