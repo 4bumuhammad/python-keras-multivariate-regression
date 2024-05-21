@@ -644,7 +644,7 @@ After :
 
 &nbsp;
 
-## conclusions regarding how the project differs from the classifier.
+## Conclusions regarding how the project differs from the classifier.
 Proyek di atas menggunakan pendekatan multivariate regression, bukan klasifikasi. Mari kita jelaskan mengapa.
 
 &nbsp;
