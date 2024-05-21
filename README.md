@@ -1,4 +1,4 @@
-# Python : Keras using a multivariate regression or classification approach
+# Python : Keras using a multivariate regression.
 
 &nbsp;
 
@@ -105,7 +105,7 @@ Creating Directories and File Structures
 
 <pre>
     ❯ pip list
-    
+
         Package                      Version
         ---------------------------- -----------
         absl-py                      2.1.0
