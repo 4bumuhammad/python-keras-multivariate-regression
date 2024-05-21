@@ -60,7 +60,7 @@ Berikut adalah penjelasan singkat tentang masing-masing kolom dalam dataset Bost
 
 &nbsp;
 
-## &#x1F530; Begin : 
+## &#x1F530; Begin
 
 Creating Directories and File Structures
 <pre>
